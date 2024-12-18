@@ -39,7 +39,7 @@ The datasets share common columns and can be used for comparative analysis, aggr
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AnkitaKrishnan/Conversational-data-query-chatbot.git
    cd conversational-data-query-chatbot
    ```
 
