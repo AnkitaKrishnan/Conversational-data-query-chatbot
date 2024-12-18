@@ -1,0 +1,70 @@
+{
+    "columns": [
+        {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year of the record, 2025 only."
+        },
+        {
+            "name": "Month",
+            "type": "integer",
+            "description": "Month of the record, ranging from 1 (January) to 12 (December)."
+        },
+        {
+            "name": "Base/Project",
+            "type": "categorical",
+            "description": "Categorical column indicating whether the record is associated with 'Base' or 'Project'.",
+            "categories": [
+                "Base",
+                "Project"
+            ]
+        },
+        {
+            "name": "LOBGroup",
+            "type": "categorical",
+            "description": "Categorical column representing the line of business group.",
+            "categories": [
+                "LOB_Group_1",
+                "LOB_Group_2",
+                "LOB_Group_3",
+                "LOB_Group_4",
+                "LOB_Group_5",
+                "LOB_Group_6",
+                "LOB_Group_7",
+                "LOB_Group_8"
+            ]
+        },
+        {
+            "name": "CostCategory",
+            "type": "categorical",
+            "description": "Categorical column indicating the type of cost category.",
+            "categories": [
+                "Cost_Category_1",
+                "Cost_Category_2",
+                "Cost_Category_3",
+                "Cost_Category_4",
+                "Cost_Category_5",
+                "Cost_Category_6",
+                "Cost_Category_7",
+                "Cost_Category_8",
+                "Cost_Category_9",
+                "Cost_Category_10",
+                "Cost_Category_11",
+                "Cost_Category_12",
+                "Cost_Category_13",
+                "Cost_Category_14",
+                "Cost_Category_15",
+                "Cost_Category_16"
+            ]
+        },
+        {
+            "name": "Forecasted Plan Rate",
+            "type": "float",
+            "description": "Continuous column representing the forecasted planned rate (monetary value) for the specific year, month, LOB, and cost category."
+        }
+    ],
+    "description": "Forecasted dataset for cost categories across all months in 2025 for various lines of business.",
+    "created_by": "Python script",
+    "creation_date": "2024-12-12",
+    "notes": "This dataset is forecasted using random values for demonstration purposes only."
+}
